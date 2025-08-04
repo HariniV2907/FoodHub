@@ -31,5 +31,5 @@ Choosing the right graphs was initially confusing, but a structured approach bas
 - Gained confidence in storytelling using plots and summaries.
 
 ## 📁 Files
-- `FoodHub.ipynb` – EDA notebook
-- `foodhub_order.csv` – Sample data (not included for privacy)
+- `FoodHub.html` – EDA file
+- `foodhub_order.csv` – Sample data
