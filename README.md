@@ -1,74 +1,71 @@
-# FoodHub – Exploratory Data Analysis
+🍽️ FoodHub Data Analysis
+📖 Project Overview
 
-# 🍽️ FoodHub Data Analysis  
+The FoodHub project focuses on analyzing food delivery data from an online food aggregator company operating in New York. The main objective is to understand restaurant demand patterns, customer preferences, and performance metrics like food preparation and delivery times. This analysis helps the company improve customer experience and optimize delivery operations.
 
-## 📌 Context  
-The number of restaurants in New York is growing rapidly. With busy lifestyles, students and professionals often rely on online food delivery. **FoodHub**, a food aggregator, provides access to multiple restaurants via a single app.  
+🎯 Objective
 
-The app workflow:  
-1. Customer places an order.  
-2. Restaurant confirms the order.  
-3. A delivery person is assigned.  
-4. Food is picked up, then delivered to the customer.  
-5. Customer rates the order.  
+FoodHub aims to analyze customer orders to:
 
-FoodHub earns revenue by collecting a fixed margin on each delivery order from restaurants.  
+Identify popular restaurants and cuisines.
 
----
+Understand customer behavior and ordering trends.
 
-## 🎯 Objective  
-The company wants to analyze customer orders stored in their online portal to:  
-- Understand restaurant demand.  
-- Improve customer experience.  
-- Gain insights that support business growth.  
+Analyze delivery and preparation times to find operational bottlenecks.
 
-As a **Data Scientist**, your task is to analyze the dataset and answer key business questions.  
+Correlate ratings with delivery efficiency and cost.
 
----
+Provide business insights to improve customer satisfaction and profitability.
 
-## 📊 Data Description  
+🧾 Dataset Description
 
-The dataset contains order details with the following columns:  
+File: foodhub_order.csv
 
-| Column Name            | Description |
-|------------------------|-------------|
-| `order_id`             | Unique ID of the order |
-| `customer_id`          | ID of the customer who placed the order |
-| `restaurant_name`      | Name of the restaurant |
-| `cuisine_type`         | Cuisine ordered by the customer |
-| `cost_of_the_order`    | Cost of the order |
-| `day_of_the_week`      | Weekday (Mon–Fri) or Weekend (Sat–Sun) |
-| `rating`               | Rating given by the customer (out of 5) |
-| `food_preparation_time`| Time (in minutes) taken by the restaurant to prepare the food |
-| `delivery_time`        | Time (in minutes) taken by the delivery person to deliver the food |
+Column Name	Description
+order_id	Unique ID of the order
+customer_id	ID of the customer who placed the order
+restaurant_name	Name of the restaurant
+cuisine_type	Type of cuisine ordered
+cost_of_the_order	Total cost of the order
+day_of_the_week	Indicates if the order was placed on a weekday or weekend
+rating	Rating (out of 5) given by the customer
+food_preparation_time	Time (in minutes) taken by the restaurant to prepare the food
+delivery_time	Time (in minutes) taken by the delivery person to deliver the food
+📊 Key Analysis Questions
 
----
+Which restaurants receive the highest number of orders?
 
-## 🚀 Key Tasks  
-- Perform exploratory data analysis (EDA).  
-- Identify demand trends for restaurants and cuisines.  
-- Analyze customer behavior across weekdays vs. weekends.  
-- Study the relationship between cost, rating, preparation time, and delivery time.  
-- Provide business insights to improve customer experience.  
+What are the most popular cuisine types among customers?
 
----
+How do order ratings vary by restaurant or cuisine?
 
-## 🛠️ Tech Stack  
-- **Python** 🐍  
-- **Pandas / NumPy** – Data manipulation  
-- **Matplotlib / Seaborn** – Data visualization  
-- **Jupyter Notebook** – Analysis workflow  
+Is there a significant difference in order patterns between weekdays and weekends?
 
----
+What is the average preparation and delivery time?
 
-## 📌 Expected Outcomes  
-- Clear understanding of high-demand restaurants and cuisines.  
-- Insights on delivery efficiency and preparation time.  
-- Trends in customer ratings and spending habits.  
-- Actionable recommendations for **FoodHub** to optimize services.  
+How does cost impact customer ratings?
 
----
+🧠 Insights Derived
 
-## 📁 Files
-- `FoodHub.html` – EDA file
-- `foodhub_order.csv` – Sample data
+Identified top-performing restaurants based on number of orders and average ratings.
+
+Found customer preference trends for specific cuisines on weekends vs. weekdays.
+
+Analyzed correlation between order cost, delivery time, and ratings.
+
+Highlighted efficiency metrics for restaurants with low preparation and delivery times.
+
+🛠️ Tools & Technologies Used
+
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+
+Jupyter Notebook / Google Colab
+
+HTML Report: FoodHub_Week1_Project.html
+
+Data Visualization for business insights
+
+📂 Project Files
+File Name	Description
+foodhub_order.csv	Dataset containing food order details
+FoodHub_Week1_Project.html	Final analysis report
