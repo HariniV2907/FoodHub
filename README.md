@@ -45,7 +45,7 @@ To perform data analysis on FoodHub’s order dataset and derive insights to hel
 
 ## 📈 Technologies Used
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn)
-- **Jupyter Notebook / Google Colab**
+- **Google Colab**
 - **HTML Report Generation** (`FoodHub_Week1_Project.html`)
 
 ---
