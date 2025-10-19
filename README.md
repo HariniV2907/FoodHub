@@ -1,4 +1,4 @@
-# 🍔 FoodHub Data Analysis Project
+# 🍔 FoodHub - Exploratory Data Analysis Project
 
 ## 📄 Project Overview
 FoodHub is a food delivery aggregator operating in New York, providing customers access to multiple restaurants through a single app. With the number of restaurants and online orders growing rapidly, the company aims to analyze customer and restaurant data to gain business insights.
